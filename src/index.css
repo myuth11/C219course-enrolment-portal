@@ -1,0 +1,137 @@
+:root {
+  --rp-green: #00793c;
+  --header-text-color: #333;
+  --header-link-hover-color: #00509e;
+}
+
+.header-logo {
+  width: 120px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.header {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-links li {
+  margin: 0 15px;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: var(--header-text-color);
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+  color: var(--header-link-hover-color);
+}
+
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-content {
+  margin-top: 20px;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  color: var(--rp-green);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.home-image {
+  width: 60%;
+  max-width: 500px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.diplomas {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.diplomas-header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.diplomas-header h1 {
+  font-size: 2rem;
+  color: var(--rp-green);
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.diplomas-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.diplomas-image {
+  width: 40%;
+  max-width: 300px;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.diplomas-list {
+  width: 50%;
+  max-width: 600px;
+  text-align: left;
+  padding: 10px;
+}
+
+.diplomas-list h2 {
+  color: var(--rp-green);
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.diplomas-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.diplomas-list li {
+  margin: 8px 0;
+}
+
+.diplomas-list a {
+  text-decoration: none;
+  color: var(--rp-green);
+  font-weight: bold;
+}
+
+.diplomas-list a:hover {
+  text-decoration: underline;
+}

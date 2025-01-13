@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6affe8ac.css",
+    "main.js": "/static/js/main.7259c376.js",
+    "static/js/488.35de8c7c.chunk.js": "/static/js/488.35de8c7c.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.7d12efedc9511e315bffb60d0f32b4cf.svg",
+    "static/media/homepage-image.jpg": "/static/media/homepage-image.f1e6e7eb5d2bd73cffe6.jpg",
+    "static/media/diplomas-image.jpg": "/static/media/diplomas-image.cac459bf5bb8a2ffc423.jpg",
+    "index.html": "/index.html",
+    "main.6affe8ac.css.map": "/static/css/main.6affe8ac.css.map",
+    "main.7259c376.js.map": "/static/js/main.7259c376.js.map",
+    "488.35de8c7c.chunk.js.map": "/static/js/488.35de8c7c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6affe8ac.css",
+    "static/js/main.7259c376.js"
+  ]
+}
